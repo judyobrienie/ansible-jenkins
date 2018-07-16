@@ -1,0 +1,7 @@
+version: '2'
+settings:
+  conductor_base: jenkinsci/blueocean
+services:
+  openshift-templates:
+    roles:
+    - jenkins-configuration
